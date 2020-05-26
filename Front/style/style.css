@@ -2,33 +2,24 @@ body {
     margin: 0px;
     padding: 0px;
 
-    background-color: bisque;
+    background-color: lightgray;
 }
 
 .navBar {
-    display: flex;
-    justify-content: center;
-    background-color: cadetblue;
+    background-color: white;
 }
 
-.navBtn {
-    border: none;
-    margin: 10px;
-    height: 50px;
-    width: 50px;
-    background-color: #7fffd4;
-    border-radius: 15px;
-}
-
-.navBtn:hover {
-    background-color: #2a5446;
-}
 
 .content {
     display: flex;
     justify-content: center;
+    margin: 20px;
 }
 
-.countryCard {
-    
+li {
+    list-style: none;
+}
+
+ul {
+    padding: 0px;
 }
